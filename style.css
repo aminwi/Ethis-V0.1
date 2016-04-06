@@ -68,8 +68,9 @@ input[type="search"]::-webkit-search-cancel-button {
 .sign_in{float:left;  text-transform:uppercase; padding:0px 30px 0px 0px;}
 .sign_in a{color:#FFFFFF; font-size:16px;}
 .get_started{float:left;}
-.get_started a{display-inline:block; padding:7px 23px 8px 23px; background-color:#ffffff; border-radius:20px; color:#47ab58; font-size:16px; text-transform:uppercase;}
+.get_started a{display-inline:block; padding:7px 23px 8px 23px; background-color:#ffffff; border-radius:20px; color:#36CC7C; font-size:16px; text-transform:uppercase;}
 .get_started a:hover{ background-color:#4e4e4e; color:#FFFFFF;}
+.logo_box{ height: 44px; width: 147px; overflow: hidden; }
 
 .footer_wrapper{background-color:#4e4e4e; padding:57px 0px 37px 0px;}
 .footer_matter{ line-height:32px;}
@@ -210,14 +211,14 @@ input[type="search"]::-webkit-search-cancel-button {
 .property_market h3 span{color:#666; font-weight:300;}
 .property_market_project{}
 .property_market_box{text-align:left; width:600px; height:auto; margin:0 auto; padding:50px 0px 0px 0px; color:#635f5f;}
-.property_market_icon{float:left; width:8%; height:auto; padding-top:50px;}
+.property_market_icon{float:left; width:8%; height:auto; padding-top:29px;}
 .property_market_icon img{}
 .property_market_matter{float:right; width:90%; height:auto;}
 .property_market_matter h4{font-weight:600; text-transform:capitalize; color:#494444; padding:0px 0px 3px 0px;}
 
 .average_wrapper{background-color:#f1f1f1;  border-bottom:2px solid #dddddd; position:relative;}
 .average_return{padding:80px 0px 135px 0px;}
-.average_return_left{float:left; width:54%; height:auto;}
+.average_return_left{float:left; width:54%; height:auto;margin-top: 80px;}
 .average_return_right{float:right; width:42%; height:auto;}
 .average_return_left img{width:100%; height:auto;}
 .average_return_right h3{text-transform:none; font-size:55px; line-height:68px; padding-top:30px;}
