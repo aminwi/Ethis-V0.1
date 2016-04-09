@@ -73,7 +73,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .logo_box{ height: 44px; width: 147px; overflow: hidden; }
 
 .footer_wrapper{background-color:#4e4e4e; padding:57px 0px 37px 0px;}
-.footer_matter{ line-height:32px;}
+.footer_matter{ line-height:32px; padding:5px;}
 .footer_matter p{color:#d5d5d5; font-size:16px;}
 .footer_company_box{float:left; padding-left:35px;}
 .footer_company_box h3{color:#6e6e6e; text-transform:capitalize;}
@@ -94,7 +94,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .property_investment_matter p{}
 
 .property_wrapper{padding:20px 0px 30px 0px;}
-.property_box{width:31%; margin:0px 3.2% 32px 0px; float:left; border:1px solid #dbdbdb; border-radius:10px; height:auto; overflow:hidden; box-shadow: 1px 1px 1px #888888; position:relative;}
+.property_box{margin:0px 3.2% 32px 0px; float:left; border:1px solid #dbdbdb; border-radius:10px; height:auto; overflow:hidden; box-shadow: 1px 1px 1px #888888; position:relative;}
 
 .property_box_header{background-color:#FFFFFF; border-bottom:1px solid #dbdbdb; height:55px; overflow:hidden;}
 .property_box_header h4{padding:7px 0px 0px 15px; text-transform:capitalize; color:#000000; font-size:18px;}
@@ -383,3 +383,34 @@ input[type="search"]::-webkit-search-cancel-button {
 
 
 .box_last{margin-right:0px !important;}
+
+@media (min-width:320px) { 
+.property_box{ width:97%; float:left; margin:0 0 0 1%;}
+.container{ width:100%; }
+.footer_box{  float:none;}
+.property_investment_matter h3{ font-size:20px;} 
+.property_investment_matter p{ font-size:12px;} 
+.property_investment_matter{ left:0%}
+
+}
+
+
+@media (min-width:481px) { 
+.property_box{ width:97%; float:left; margin:0 0 0 1%;}
+.container{ width:100%; }
+.property_investment_matter h3{ font-size:20px;} 
+.property_investment_matter p{ font-size:12px;} 
+.property_investment_matter{ left:0%}
+
+}
+
+@media (min-width:1025px) { 
+.property_box{ width:31%; margin:0 3.2% 32px 0}
+.container{ width:1100px; }
+.footer_box{  float:right;}
+.property_investment_matter h3{ font-size:45px;} 
+.property_investment_matter p{ font-size:18px;} 
+.property_investment_matter{ left:15%}
+
+}
+
