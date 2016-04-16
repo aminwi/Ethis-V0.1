@@ -1,0 +1,147 @@
+/************************************************************************************
+smaller than 960px
+*************************************************************************************/
+@media screen and (max-width:1110px){
+	#header, .container, #page{width:94%;}
+	embed, object, iframe{max-width:100%; height:auto; min-height:300px;}
+	input, textarea{max-width:100%; height:auto;}
+	#col_left{width:70%;}
+	#col_right{width:27%;}
+	.property_box{width:31%; margin:0px 3% 32px 0px;}
+	.property_box_thumbnail{height:150px;}
+	.porperty_progress_bar{width:100%;}
+    .average_return_right h3{text-transform: none; font-size:40px;}
+    
+}
+
+@media screen and (max-width:980px){
+	.property_box{width:40%; margin:0px 5% 32px 4% !important;}
+	.property_box_thumbnail{height:150px;}
+	.porperty_progress_bar{width:100%;}
+	.single_property_box{bottom:80px;}
+	.property_investment_matter h3{font-size:35px; padding:0px 0px 5px 0px; font-weight:300;}
+    .average_return_right h3{text-transform: none; font-size:35px;}
+}
+/************************************************************************************
+smaller than 768px
+*************************************************************************************/
+@media screen and (max-width:768px){
+	#menu_box{display:none;}
+	.mobile_navigation_bt{display:block;}
+	.services_item{width:46%; margin:0 2% 20px 2%;}
+	#col_left{width:100%; float:none;}
+	#col_right{width:230px; float:none; margin:0 auto;}
+	.home_cat_box{width:90%; max-width:500px; margin:0 auto 20px auto; float:none;}
+	.product_post_thumb{float:none; margin:0 auto 15px auto; width:100%; padding:0px;}
+	.average_return_right h3{text-transform: none; font-size:20px; line-height:40px;}
+	.frontpage_header_matter h2{font-size:35px;}
+	.frontpage_header_bt{padding:10px 30px;}
+	.frontpage_header_matter{top:25%;}
+	.frontpage_header_matter h3{font-size:25px;}
+	.property_market_box{width:530px;}
+	.average_return_left{width:40%;}
+	.average_return_right{width:55%;}
+	.average_return{padding:80px 0px 50px 0px;}
+	.investor_chat_box{max-width:450px;}
+	.investor_chat_detail{padding:50px 0px 80px 20px;}
+	.dashboard_left{float:none; width:200px; margin:0 auto;}
+	.dashboard_right{float:none; margin:0 auto; width:96%;}
+	.dashboard_right_inner{margin:10px;}
+	.dashboard_right_inner h1{text-align:center;}
+	.your_profile_box{width:100%;}
+	.your_projcect_box{width:90%; margin:0 auto 10px auto;}
+	.property_box{width:420px; margin:0px auto 30px auto !important; float:none;}
+	.property_box_thumbnail{height:auto;}
+	.property_box_thumbnail img{width:100%; height:auto;}
+	.porperty_progress_bar{width:100%;}
+	.property_investment_matter h3{font-size:30px; padding:0px 0px 5px 0px; font-weight:300;}
+	.single_property_box{bottom:0px; width:100%; right:0%; position:relative; border-radius:0; border:none;}
+	.single_porperty_progress_bar{width:100%;}
+	.single_property_box .single_property_box_thumbnail{height:auto;}
+	.porject_summary{float:none; margin:0 auto 10px auto; width:90%}
+	.project_picture{float:none; margin:0 auto 10px auto; width:90%}
+	.investment_box, .project_location{float:none; margin:0 auto 10px auto; width:100%}
+}
+
+/************************************************************************************
+smaller than 480px
+*************************************************************************************/
+@media screen and (max-width:560px) {
+	/* disable webkit text size adjust (for iPhone) */
+	html{-webkit-text-size-adjust: none;}
+	.services_item{width:90%; margin:0 auto 20px auto; float:none; padding:0% 0px 0px 0px;}
+	.services_item_inner{padding:10px 0px 0px 0px;}
+	.services_item img{width:100%; height:auto;}
+	.home_services_wrapper h2, .home_about_wrapper h2, .home_latest_portfolio h2, .footer_ct_wrapper h2{font-size:30px;}
+	.col_half_left{float:none; width:100%; margin-bottom:20px;}
+	.col_half_right{float:none; width:100%;}
+	.short_message{font-size:24px;}
+	.home_slider ul.slides li .home_slider_matter{display:none;}
+	.home_features_box{float:none; width:100%; margin:10px 0px;}
+	.footer_box_one, .footer_box_two, .footer_box_three, .footer_box_four{float:none; margin:0 auto 20px auto; width:280px;}
+	.property_market_box{width:220px; padding:0px 0px 0px 0px;}
+	.property_market_icon, .property_market_matter{float:none; text-align:center; width:100%;}
+	.average_return_left{float:none; text-align:center; width:100%;}
+	.average_return_right{text-align:center; width:100%; text-align:center;}
+	.business_partner_icon ul li{width:33%;}
+	.downArrow{margin-left:-25px; bottom:-25px;}
+	.downArrow img{width:50px; height:auto;}
+	.frontpage_header_matter h2{font-size:35px; padding:0px; margin-top:15px;text-align:left;}
+	.frontpage_header_bt{padding:10px 15px; font-size:18px;}
+	.frontpage_header_matter h3{font-size:20px;padding:0px; margin:0px; text-align:left;}
+	.property_box{width:320px; margin:0px auto 30px auto !important; float:none;}
+	.property_investment_matter{top:10%;}
+	.property_investment_matter h3{font-size:23px; padding:0px 0px 5px 0px; font-weight:300;}
+	.registration_header_box{width:340px;}
+	.registration_header_titile{text-align:center; font-size:14px; font-weight:400;}
+	.header_accreditation{padding-left:10%;}
+	.registration_middle_box_left{width:auto; float:none; border-right:none;}
+	.registration_middle_box_left_matter{padding:20px; text-align:center;}
+	.registration_middle_box_right{width:100%; float:none;}
+	.registration_form_box{width:90%; margin:0 auto;}
+	.registration_middle_box_right .registration_form_box{padding:15px;}
+	.registration_form_box, .form_lastStep{width:90%; margin:0 auto; padding:10px;}
+	.select_box{padding:15px;}
+	.investor_chat_box{max-width:380px;}
+}
+/************************************************************************************
+smaller than 320px
+*************************************************************************************/
+@media screen and (max-width:420px){
+	
+	.frontpage_header_matter h2{font-size:35px; text-align:center;}
+	.investor_chat_box{max-width:300px;}
+	.investor_chat_box h3{font-size:25px; line-height:30px; padding:0px 55px 30px 55px;}
+	.form_submit_wrapper{text-align:center;}
+	.form_submit_wrapper{padding:20px 0px 0px 0px;}
+	.submit_edit, .submit_Save_change{display:inline-block;}
+	.form_submit_wrapper input[type="submit"], .submit_Save_change input[type="submit"]{padding:12px 32px;}
+	.single_propery_listing_overbox img{max-width:220px; height:auto;}
+    .frontpage_header{margin-bottom:10px;}
+}
+
+@media screen and (max-width:360px){
+	.home_services_wrapper h2, .home_about_wrapper h2, .home_latest_portfolio h2, .footer_ct_wrapper h2{font-size:30px;}
+	.footer_box_one, .footer_box_two, .footer_box_three, .footer_box_four{float:none; margin:0 auto 20px auto; width:100%;}
+	.short_message{font-size:16px;}
+	.header_left, .header_right{float:none; text-align:center;}
+    .frontpage_header{margin-bottom:10px;}
+	.frontpage_header_matter h2{font-size:25px; padding:0px; margin-top:15px;text-align:left;}
+	.sign_in, .get_started{float:none; display:inline-block;}
+	.frontpage_header_matter h3{font-size:15px;padding:0px; margin:0px; text-align:left;}
+	.business_partner_icon ul li{width:50%;}
+	.investor_chat_box{max-width:220px;}
+	.investor_chat_box h3{line-height:25px; font-size:20px; padding:0px 20px 20px 19px;}
+	.chat_icon img{width:15px !important; height:auto;}
+	.investor_chat_detail{padding:20px 0px 20px 20px;}
+	.investor_chat_detail_matter{padding:25px 0px 0px 10px; font-weight:bold;}
+	.investor_chat_detail_matter h3{font-size:25px; padding-bottom:0px; font-weight:400;}
+	.investor_chat_detail_thumb img{width:80px !important; height:auto;}
+	.property_box{width:95%; margin:0px auto 30px auto !important; float:none;}
+	.property_box_header{height:auto; padding:5px 5px 10px 5px;}
+	.property_investment_matter{top:10px;}
+	.property_investment_matter h3{font-size:20px; padding:0px 0px 5px 0px; font-weight:300;}
+	.registration_header_box{width:280px;}
+	.header_accreditation{padding-left:3%;}
+	
+}
